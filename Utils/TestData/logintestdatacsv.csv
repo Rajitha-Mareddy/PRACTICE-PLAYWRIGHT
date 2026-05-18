@@ -1,0 +1,5 @@
+username,password,type
+rajimareddy442@gmail.com,Mahi@123,Valid
+rajiimareddy442@gmail.com,Mahi@123,invalidusername
+rajimareddy442@gmail.com,abc@123,invalipassword
+raji@gmail.com,abc@123,invalidBoth

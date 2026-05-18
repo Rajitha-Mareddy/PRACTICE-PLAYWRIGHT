@@ -1,0 +1,52 @@
+[
+  {
+    instructor: 'Rahul Shetty',
+    course: 'Selenium Webdriver with Java Basics + Advanced + Interview Guide',
+    price: '30'
+  },
+  {
+    instructor: 'Rahul Shetty',
+    course: 'Learn SQL in Practical + Database Testing from Scratch',
+    price: '25'
+  },
+  {
+    instructor: 'Rahul Shetty',
+    course: 'Appium (Selenium) - Mobile Automation Testing from Scratch',
+    price: '30'
+  },
+  {
+    instructor: 'Rahul Shetty',
+    course: 'WebSecurity Testing for Beginners-QA knowledge to next level',
+    price: '20'
+  },
+  {
+    instructor: 'Rahul Shetty',
+    course: 'Learn JMETER from Scratch - (Performance + Load) Testing Tool',
+    price: '25'
+  },
+  {
+    instructor: 'Rahul Shetty',
+    course: 'WebServices / REST API Testing with SoapUI',
+    price: '35'
+  },
+  {
+    instructor: 'Rahul Shetty',
+    course: 'QA Expert Course :Software Testing + Bugzilla + SQL + Agile',
+    price: '25'
+  },
+  {
+    instructor: 'Rahul Shetty',
+    course: 'Master Selenium Automation in simple Python Language',
+    price: '25'
+  },
+  {
+    instructor: 'Rahul Shetty',
+    course: 'Advanced Selenium Framework Pageobject, TestNG, Maven, Jenkins,C',
+    price: '20'
+  },
+  {
+    instructor: 'Rahul Shetty',
+    course: 'Write effective QA Resume that will turn to interview call',
+    price: '0'
+  }
+]

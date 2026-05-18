@@ -1,0 +1,20 @@
+{
+    "validLogin": {
+        "username": "rajimareddy442@gmail.com" ,
+        "password": "Mahi@123"
+    },
+    "invalidUsername": {
+        "username": "rajiimareddy442@gmail.com",
+        "password": "Mahi@123"
+    },
+
+    "invalidpassword": {
+        "username": "rajimareddy442@gmail.com",
+        "password": "abc@123455"
+    },
+
+    "invalidBoth": {
+        "username": "rajiiimareddy442@gmail.com",
+        "password": "test@123"
+    }
+}

@@ -1,0 +1,181 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: MultipleFileUploads.spec.ts >> multiple upload file
+- Location: tests\MultipleFileUploads.spec.ts:3:5
+
+# Error details
+
+```
+Error: expect(locator).toContainText(expected) failed
+
+Locator: locator('span a').nth(1)
+Timeout: 5000ms
+- Expected substring  - 1
++ Received string     + 3
+
+- Test1.png
++
++ 		Copy‑paste ready CSS & JavaScript patterns with accessibility baked in.
++ 	
+
+Call log:
+  - Expect "toContainText" with timeout 5000ms
+  - waiting for locator('span a').nth(1)
+    9 × locator resolved to <a target="_blank" class="carbon-text" rel="noopener sponsored" href="https://srv.carbonads.net/ads/click/x/GTND427UFT7DV23ICVYLYKQUCASIKK37CAYIPZ3JCASI527WCK7DCK7KCK7I4K7MC6BIPK3WC6AIV2QWCAADV27KC6SI553LCKYDEK3EHJNCLSIZ">↵⇆⇆Copy‑paste ready CSS & JavaScript patterns wit…</a>
+      - unexpected value "
+		Copy‑paste ready CSS & JavaScript patterns with accessibility baked in.
+	"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - list [ref=e3]:
+    - listitem [ref=e4]:
+      - link "Project" [ref=e5] [cursor=pointer]:
+        - /url: https://github.com/blueimp/jQuery-File-Upload
+    - listitem [ref=e6]:
+      - link "Demo" [ref=e7]:
+        - /url: "#"
+    - listitem [ref=e8]:
+      - link "Wiki" [ref=e9] [cursor=pointer]:
+        - /url: https://github.com/blueimp/jQuery-File-Upload/wiki
+    - listitem [ref=e10]:
+      - link "Author" [ref=e11] [cursor=pointer]:
+        - /url: https://blueimp.net
+  - heading "jQuery File Upload Demo" [level=1] [ref=e12]
+  - blockquote [ref=e13]:
+    - paragraph [ref=e14]:
+      - text: File Upload widget with multiple file selection, drag&drop support, progress bars, validation and preview images, audio and video for jQuery.
+      - text: Supports cross-domain, chunked and resumable file uploads and client-side image resizing.
+      - text: Works with any server-side platform (PHP, Python, Ruby on Rails, Java, Node.js, Go etc.) that supports standard HTML form file uploads.
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: +
+          - text: Add files...
+          - button "Choose File" [ref=e20]
+        - button " Start upload" [active] [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: 
+          - text: Start upload
+        - button " Cancel upload" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: 
+          - text: Cancel upload
+        - button " Delete selected" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: 
+          - text: Delete selected
+        - checkbox [ref=e27]
+      - progressbar [ref=e29]
+    - paragraph [ref=e31]: Test1.png
+    - generic [ref=e32]: Error File is too small
+    - text: 0.00 KB
+    - button " Cancel" [ref=e33] [cursor=pointer]:
+      - generic [ref=e34]: 
+      - text: Cancel
+    - paragraph [ref=e35]: Test2.png
+    - generic [ref=e36]: Error File is too small
+    - text: 0.00 KB
+    - button " Cancel" [ref=e37] [cursor=pointer]:
+      - generic [ref=e38]: 
+      - text: Cancel
+  - paragraph [ref=e39]:
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - link "ads via Carbon" [ref=e43] [cursor=pointer]:
+          - /url: https://srv.carbonads.net/ads/click/x/GTND427UFT7DV23ICVYLYKQUCASIKK37CAYIPZ3JCASI527WCK7DCK7KCK7I4K7MC6BIPK3WC6AIV2QWCAADV27KC6SI553LCKYDEK3EHJNCLSIZ
+          - img "ads via Carbon" [ref=e44]
+        - link "Copy‑paste ready CSS & JavaScript patterns with accessibility baked in." [ref=e45] [cursor=pointer]:
+          - /url: https://srv.carbonads.net/ads/click/x/GTND427UFT7DV23ICVYLYKQUCASIKK37CAYIPZ3JCASI527WCK7DCK7KCK7I4K7MC6BIPK3WC6AIV2QWCAADV27KC6SI553LCKYDEK3EHJNCLSIZ
+      - link "ads via Carbon" [ref=e46] [cursor=pointer]:
+        - /url: http://carbonads.net/?utm_source=blueimpgithubio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+  - generic [ref=e47]:
+    - heading "Pintura" [level=3] [ref=e49]:
+      - link "Pintura" [ref=e50] [cursor=pointer]:
+        - /url: https://pqina.nl/pintura?atp=blueimp
+        - img "Pintura" [ref=e51]
+    - generic [ref=e52]:
+      - paragraph [ref=e53]:
+        - link "Pintura Image Editor" [ref=e54] [cursor=pointer]:
+          - /url: https://pqina.nl/pintura?atp=blueimp
+        - text: integrates smoothly with
+        - link "jQuery File Upload" [ref=e55] [cursor=pointer]:
+          - /url: https://github.com/blueimp/jQuery-File-Upload
+        - text: and creates a super fast image editing experience for your users.
+      - list [ref=e56]:
+        - listitem [ref=e57]: Five Minute Install
+        - listitem [ref=e58]: Set Crop Masks and Guides
+        - listitem [ref=e59]: Define Aspect Ratio Options
+        - listitem [ref=e60]: Rotate, Resize, and Flip Images
+        - listitem [ref=e61]: Add Markup and Annotations
+        - listitem [ref=e62]: Color Adjustment Controls
+        - listitem [ref=e63]: Apply Filter Effects
+      - paragraph [ref=e64]:
+        - link "Learn more" [ref=e65] [cursor=pointer]:
+          - /url: https://pqina.nl/pintura?atp=blueimp
+  - generic [ref=e66]:
+    - heading "Demo Notes" [level=3] [ref=e68]
+    - list [ref=e70]:
+      - listitem [ref=e71]:
+        - text: The maximum file size for uploads in this demo is
+        - strong [ref=e72]: 999 KB
+        - text: (default file size is unlimited).
+      - listitem [ref=e73]:
+        - text: Only image files (
+        - strong [ref=e74]: JPG, GIF, PNG
+        - text: ) are allowed in this demo (by default there is no file type restriction).
+      - listitem [ref=e75]:
+        - text: Uploaded files will be deleted automatically after
+        - strong [ref=e76]: 5 minutes or less
+        - text: (demo files are stored in memory).
+      - listitem [ref=e77]:
+        - text: You can
+        - strong [ref=e78]: drag & drop
+        - text: files from your desktop on this webpage (see
+        - link "Browser support" [ref=e79] [cursor=pointer]:
+          - /url: https://github.com/blueimp/jQuery-File-Upload/wiki/Browser-support
+        - text: ).
+      - listitem [ref=e80]:
+        - text: Please refer to the
+        - link "project website" [ref=e81] [cursor=pointer]:
+          - /url: https://github.com/blueimp/jQuery-File-Upload
+        - text: and
+        - link "documentation" [ref=e82] [cursor=pointer]:
+          - /url: https://github.com/blueimp/jQuery-File-Upload/wiki
+        - text: for more information.
+      - listitem [ref=e83]:
+        - text: Built with the
+        - link "Bootstrap" [ref=e84] [cursor=pointer]:
+          - /url: https://getbootstrap.com/
+        - text: CSS framework and Icons from
+        - link "Glyphicons" [ref=e85] [cursor=pointer]:
+          - /url: https://glyphicons.com/
+        - text: .
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@playwright/test';
+  2  | 
+  3  | test('multiple upload file', async ({ page }) => {
+  4  | 
+  5  |     await page.goto('https://blueimp.github.io/jQuery-File-Upload/')
+  6  |     await page.locator("input[type='file']").setInputFiles(['tests/Uploads/Test1.png','tests/Uploads/Test2.png']);
+  7  |     await page.locator("button[type='submit'] span").click()
+> 8  |     await expect(page.locator('span a').nth(1)).toContainText('Test1.png')
+     |                                                 ^ Error: expect(locator).toContainText(expected) failed
+  9  |     await expect(page.locator('span a').nth(2)).toContainText('Test2.png')
+  10 | 
+  11 | 
+  12 |     
+  13 |  })
+```
