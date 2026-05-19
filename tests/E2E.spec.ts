@@ -72,7 +72,7 @@ test.describe('E2E Tests', () => {
         await expect(loginPage.errorMessage).toBeVisible();
     })
 
-    test('@smoke Add to cart', async ({ page }) => {
+    test('@smoke @sanity Add to cart', async ({ page }) => {
         await loginPage.goTo('client/#/auth/login')
         await loginPage.login(Config.username, Config.password)
         await dashboardPage.addProducttoCart(Config.product)
